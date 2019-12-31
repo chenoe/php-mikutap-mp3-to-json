@@ -1,7 +1,11 @@
-基于 PHP 设计的，用于将服务器上已有的 mp3 文件转换成适用于 mikutap 的 json 库。
+The design is based on PHP and can convert existing MP3 files on server into JavaScript Object Notation(JSON) files that can be used by MikuTap.
 
-PHP 文件中包含 json 文件的输出名称（可配置路径）、源文件所在的路径、
+The PHP scripts include what name the JSON file will be(the output path can be customized), where the raw files exist, and the number of raw files(NOT recommend changing).
 
-源文件总数（不建议调整）（主音库 main 需要 32 个 mp3 文件、背景轨道 track 需要 11 个 mp3 文件）。
+The "main" library, which includes sounds of keys to be played, needs 32 MP3 files, while the "track" library, which includes background sounds, needs 11 MP3 files.
 
-源文件名称以 1.mp3 到 32.mp3 （或 11.mp3 ， track ）命名。
+The raw files are supposed to be named from 1.mp3 to 32.mp3 (for "main") or 11.mp3 (for "track").
+
+Updated on 2019.12.31 :
+
+Translate the introduction(README.md) into English (i18n).
